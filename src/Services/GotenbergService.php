@@ -30,7 +30,7 @@ class GotenbergService
      */
     public function generatePdfFromUrl(string $url): string
     {
-        $htmlContent = file_get_contents($url);
+//        $htmlContent = file_get_contents($url);
 
         $response = $this->client->request(
             'POST',
